@@ -15,6 +15,7 @@ This project would include **FIVE** potential topics:
 - Climate Change Awareness and Knowledge (Internal Code: MLD01e)
         
 ## Work Flow and Log
-- Data Cleansing | In Progress ⏳        
+- Data Cleansing | Initial Testing ⏳        
 - Confirm with D.B. about geographical boundary | To Do 🚧
-     
+- Testing MLD01e      
+         
