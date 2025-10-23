@@ -1,5 +1,7 @@
+import os
 import pandas as pd
 
+from glob import glob
 from typing import Optional 
 
 def load_data_from_disk() -> 'pd.DataFrame':
@@ -52,3 +54,23 @@ def load_data_from_disk() -> 'pd.DataFrame':
     df_all['ResidInfraOthers_dummy'] = (df_all['Resid_Type'] == 4).astype(int)
     
     return df_all
+
+def read_all_probs_df_from_parquet(results_addr:str) -> dict:
+    """
+    Read all .parquet files in a directory into a dictionary of DataFrames.
+
+    This function scans the specified directory for all .parquet files, reads each file into a pandas DataFrame,
+    and stores them in a dictionary with keys based on the file names (without the .parquet extension).
+
+    Args:
+        results_addr (str): The directory path containing .parquet files.
+
+    Returns:
+        dict: A dictionary where keys are file names (without extension) and values are pandas DataFrames.
+    """
+    probs_dictionary = {}
+    file_address = sorted(glob(os.path.join(results_addr, '*.parquet')))
+    for file in file_address:
+        key = os.path.basename(file).replace('.parquet', '')
+        probs_dictionary[key] = pd.read_parquet(file)
+    return probs_dictionary
