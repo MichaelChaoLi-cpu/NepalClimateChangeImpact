@@ -208,6 +208,7 @@ __marimo__/
 
 PrivateData/**
 
+.DS_Store
 .DS_Store/**
 ipynb_checkpoints/**
 Data/**
@@ -217,3 +218,35 @@ Manuscript/**
 Manuscript/*
 Manuscript/
 MLD01e_Results/MLD01e1_Results/*
+
+# BEGIN local research data and generated results
+# Keep large, reproducible, or confidential datasets out of Git.
+MLD01e_Data/
+MLD01e_Results/
+*.parquet
+*.feather
+*.arrow
+*.dta
+*.sav
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+
+# Local analysis-session state.
+.Rhistory
+# END local research data and generated results
+
+# BEGIN manuscript revision workspace
+.codex/skills/
+.claude/skills/
+Rev/*
+!Rev/revision/
+Rev/revision/*
+!Rev/revision/response-draft.md
+# END manuscript revision workspace
+
+Submission/
