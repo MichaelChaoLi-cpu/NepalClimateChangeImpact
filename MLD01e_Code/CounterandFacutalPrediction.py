@@ -80,25 +80,52 @@ def predicting_counter_and_factual_knowledge_based_xgboost(
 def predicting_counter_and_factual_awareness_based_xgboost(
     df_inuse: 'pd.DataFrame',
     factural_knowledge_probs: 'pd.DataFrame',
-    counterfactual_knowledge_probs: 'pd.DataFrame'
+    counterfactual_knowledge_probs: 'pd.DataFrame',
+    direct_impact: bool = True,
+    indirect_impact: bool = True
     ) -> Tuple[pd.DataFrame, pd.DataFrame]:
     """
-    Perform counterfactual and factual prediction of climate change awareness using XGBoost.
+    Predict factual and counterfactual probabilities of climate change awareness using XGBoost.
 
-    This function uses an XGBoost classifier to predict the probability of being aware of climate change (factual)
-    and the probability under a counterfactual scenario where education year is increased by 1 and literacy dummies are set to 0.
-    It adds factual and counterfactual knowledge probabilities as features, performs repeated stratified 10-fold cross-validation
-    with different random seeds, and uses the best hyperparameters from a previous search. Returns probability matrices for both factual
-    and counterfactual predictions, with mean probabilities across folds.
+    This function estimates how both direct and indirect effects of education influence
+    the probability of being aware of climate change. A factual model is trained using
+    observed data, while a counterfactual scenario simulates higher education levels
+    and modified knowledge exposure.
+
+    The function uses a 10-fold stratified cross-validation repeated under different random seeds,
+    and integrates pre-estimated factual and counterfactual knowledge probabilities as additional
+    model features. For each fold, an XGBoost classifier is fitted with optimal hyperparameters
+    retrieved from prior tuning results, and both factual and counterfactual predictions are stored.
 
     Args:
-        df_inuse (pd.DataFrame): Input DataFrame with features and the target column 'Climate Change Awareness Dummy'.
-        factural_knowledge_probs (pd.DataFrame): DataFrame of factual knowledge probabilities.
-        counterfactual_knowledge_probs (pd.DataFrame): DataFrame of counterfactual knowledge probabilities.
+        df_inuse (pd.DataFrame):
+            Input dataset containing explanatory variables and the target variable
+            `'Climate Change Awareness Dummy'`.
+        factural_knowledge_probs (pd.DataFrame):
+            DataFrame of factual knowledge prediction probabilities (mean across folds).
+        counterfactual_knowledge_probs (pd.DataFrame):
+            DataFrame of counterfactual knowledge prediction probabilities (mean across folds).
+        direct_impact (bool, optional):
+            If True, directly increases 'Education Year' by 1 and sets both
+            literacy dummies ('Literate Education Dummy' and 'Illiterate Dummy') to 0
+            to simulate the direct effect of education improvement. Default is True.
+        indirect_impact (bool, optional):
+            If True, replaces the factual knowledge probability feature with the
+            counterfactual version to simulate the indirect (knowledge-mediated) effect. Default is True.
+
     Returns:
         Tuple[pd.DataFrame, pd.DataFrame]:
-            - prob_matrix: Factual prediction probabilities for each sample (mean across folds).
-            - prob_matrix_tide: Counterfactual prediction probabilities for each sample (mean across folds).
+            - **prob_matrix**: DataFrame of factual prediction probabilities
+              (10-fold columns + mean column).
+            - **prob_matrix_tide**: DataFrame of counterfactual prediction probabilities
+              (10-fold columns + mean column).
+
+    Notes:
+        - Class imbalance is addressed using `scale_pos_weight` in XGBoost.
+        - The model uses pre-optimized hyperparameters loaded from the prior tuning results file:
+          `'MLD01e_Results/MLD01e_C11_AwarenessFactorInvestigation_v1.parquet'`.
+        - Both output DataFrames have one row per observation, allowing sample-level analysis
+          of factual–counterfactual changes in awareness probability.
     """
     # Extract target and features
     y = df_inuse['Climate Change Awareness Dummy'].astype(int)
@@ -142,10 +169,14 @@ def predicting_counter_and_factual_awareness_based_xgboost(
             prob_matrix.iloc[test_idx, epoch] = clf.predict_proba(X_test)[:, 1]
             # Counterfactual: increase education year, set literacy dummies to 0, update knowledge probability
             X_tide = X_test.copy()
-            X_tide['Education Year'] = X_tide['Education Year'] + 1
-            X_tide['Literate Education Dummy'] = 0
-            X_tide['Illiterate Dummy'] = 0
-            X_tide['Heard about Climate Change Probability'] = counterfactual_knowledge_probs['mean'].iloc[test_idx].to_list()
+
+            if direct_impact:
+                X_tide['Education Year'] = X_tide['Education Year'] + 1
+                X_tide['Literate Education Dummy'] = 0
+                X_tide['Illiterate Dummy'] = 0
+
+            if indirect_impact:
+                X_tide['Heard about Climate Change Probability'] = counterfactual_knowledge_probs['mean'].iloc[test_idx].to_list()
             prob_matrix_tide.iloc[test_idx, epoch] = clf.predict_proba(X_tide)[:, 1]
         print(f'epoch: {epoch}, random_seed:{random_seed}')
     # Calculate mean probability across folds
@@ -159,28 +190,58 @@ def predicting_counter_and_factual_action_based_xgboost(
     counterfactual_knowledge_probs: 'pd.DataFrame',
     factural_awareness_probs: 'pd.DataFrame',
     counterfactual_awareness_probs: 'pd.DataFrame',
-    action_type: str
+    action_type: str,
+    direct_impact: bool = True,
+    indirect_impact: bool = True
 ) -> Tuple[pd.DataFrame, pd.DataFrame]:
     """
-    Perform counterfactual and factual prediction of climate change adaptation actions using XGBoost.
+    Predict factual and counterfactual probabilities of taking a specific climate change
+    adaptation action using XGBoost.
 
-    This function predicts the probability of taking a specific adaptation action (factual)
-    and the probability under a counterfactual scenario where education year is increased by 1 and literacy dummies are set to 0.
-    It adds factual and counterfactual knowledge and awareness probabilities as features, performs repeated stratified 10-fold cross-validation
-    with different random seeds, and uses the best hyperparameters from a previous search for the specified action type.
-    Returns probability matrices for both factual and counterfactual predictions, with mean probabilities across folds.
+    The function estimates how education affects the probability of taking the chosen action
+    through: (i) a direct channel (altering education-related covariates), and (ii) an indirect,
+    knowledge/awareness-mediated channel (replacing the factual knowledge/awareness features with
+    their counterfactual counterparts). Models are trained with repeated 10-fold stratified
+    cross-validation under different random seeds, using best hyperparameters retrieved from a
+    prior tuning run for the specified action.
 
     Args:
-        df_inuse (pd.DataFrame): Input DataFrame with features and the target action column.
-        factural_knowledge_probs (pd.DataFrame): DataFrame of factual knowledge probabilities.
-        counterfactual_knowledge_probs (pd.DataFrame): DataFrame of counterfactual knowledge probabilities.
-        factural_awareness_probs (pd.DataFrame): DataFrame of factual awareness probabilities.
-        counterfactual_awareness_probs (pd.DataFrame): DataFrame of counterfactual awareness probabilities.
-        action_type (str): The column name of the action to predict.
+        df_inuse (pd.DataFrame):
+            Feature matrix and the target action column. `action_type` must be a binary column
+            in this DataFrame (1 = took the action, 0 = otherwise).
+        factural_knowledge_probs (pd.DataFrame):
+            Factual knowledge probabilities (e.g., a column `'mean'` aligned by row with df_inuse).
+        counterfactual_knowledge_probs (pd.DataFrame):
+            Counterfactual knowledge probabilities (same shape/row order; typically a `'mean'` column).
+        factural_awareness_probs (pd.DataFrame):
+            Factual awareness probabilities (e.g., `'mean'`).
+        counterfactual_awareness_probs (pd.DataFrame):
+            Counterfactual awareness probabilities (e.g., `'mean'`).
+        action_type (str):
+            The column name in `df_inuse` representing the action to predict (binary target).
+        direct_impact (bool, optional):
+            If True, simulate direct education effects by modifying education-related covariates
+            (e.g., +1 year of education; set literacy dummies to 0) in the counterfactual data.
+            Default: True.
+        indirect_impact (bool, optional):
+            If True, simulate indirect effects by replacing the factual knowledge/awareness
+            probability features with their counterfactual versions. Default: True.
+
     Returns:
         Tuple[pd.DataFrame, pd.DataFrame]:
-            - prob_matrix: Factual prediction probabilities for each sample (mean across folds).
-            - prob_matrix_tide: Counterfactual prediction probabilities for each sample (mean across folds).
+            - prob_matrix:
+                Factual prediction probabilities for each observation across folds
+                (10 fold-wise columns) plus a `'mean'` column (average across folds).
+            - prob_matrix_tide:
+                Counterfactual prediction probabilities for each observation across folds
+                (10 fold-wise columns) plus a `'mean'` column.
+
+    Notes:
+        - Class imbalance is handled via `scale_pos_weight` within XGBoost on each training split.
+        - Hyperparameters are loaded from a prior model selection artifact tailored to `action_type`.
+        - All probability inputs are expected to align 1:1 by row with `df_inuse`.
+        - Outputs retain row order, enabling sample-level comparisons between factual and
+          counterfactual action probabilities.
     """
     # Extract target and features
     y = df_inuse[action_type].astype(int)
@@ -232,11 +293,15 @@ def predicting_counter_and_factual_action_based_xgboost(
             prob_matrix.iloc[test_idx, epoch] = clf.predict_proba(X_test)[:, 1]
             # Counterfactual: increase education year, set literacy dummies to 0, update knowledge and awareness probabilities
             X_tide = X_test.copy()
-            X_tide['Education Year'] = X_tide['Education Year'] + 1
-            X_tide['Literate Education Dummy'] = 0
-            X_tide['Illiterate Dummy'] = 0
-            X_tide['Heard about Climate Change Probability'] = counterfactual_knowledge_probs['mean'].iloc[test_idx].to_list()
-            X_tide['Climate Change Awareness Probability'] = counterfactual_awareness_probs['mean'].iloc[test_idx].to_list()
+
+            if direct_impact:
+                X_tide['Education Year'] = X_tide['Education Year'] + 1
+                X_tide['Literate Education Dummy'] = 0
+                X_tide['Illiterate Dummy'] = 0
+
+            if indirect_impact:
+                X_tide['Heard about Climate Change Probability'] = counterfactual_knowledge_probs['mean'].iloc[test_idx].to_list()
+                X_tide['Climate Change Awareness Probability'] = counterfactual_awareness_probs['mean'].iloc[test_idx].to_list()
             prob_matrix_tide.iloc[test_idx, epoch] = clf.predict_proba(X_tide)[:, 1]
         print(f'epoch: {epoch}, random_seed:{random_seed}')
     # Calculate mean probability across folds
