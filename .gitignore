@@ -249,4 +249,7 @@ Rev/revision/*
 !Rev/revision/response-draft.md
 # END manuscript revision workspace
 
+# Local Kila human-decision log.
+docs/framelog/kila.md
+
 Submission/
