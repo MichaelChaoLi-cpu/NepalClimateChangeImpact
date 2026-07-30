@@ -120,9 +120,9 @@ response content
 The Nepal case study is well described, but the discussion would benefit from more specific evidence or statistics to strengthen the rationale.
 
 **Response:**
-response content
+Thank you for this helpful comment. The revised Introduction now strengthens the rationale for the Nepal case by adding national survey statistics that show the contrast between widespread climate exposure and limited climate awareness, particularly among rural households. It also explains how this exposure–awareness gap motivates the examination of the progression from education to knowledge, awareness, and adaptive action.
 
-"article content"
+"National survey evidence further illustrates the coexistence of high climate exposure and limited climate awareness in Nepal. Although 87.22% of households reported experiencing climate change over the previous 25 years, only 35.8% were aware of climate change, with awareness falling to 26.3% among rural households. This combination of widespread exposure and limited awareness makes Nepal an especially important setting for examining how education shapes the progression from climate knowledge to awareness and adaptive action."
 
 (Lines XX-XX; Pages XX)
 
