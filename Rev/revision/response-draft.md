@@ -129,9 +129,9 @@ Thank you for this helpful comment. The revised Introduction now strengthens the
 Some claims (e.g., "first systematic empirical assessment" and "first" contributions) should be supported by evidence or softened unless a comprehensive literature review confirms them.
 
 **Response:**
-response content
+Thank you for this helpful comment. We have revised the Introduction to avoid an unsupported absolute novelty claim. The manuscript now describes the study as providing a systematic empirical assessment of the layered pathway, without claiming that it is the first such assessment.
 
-"article content"
+"First, drawing on nationally representative individual-level data from Nepal, we provide a systematic empirical assessment of a layered pathway through which education shapes climate change responses."
 
 (Lines XX-XX; Pages XX)
 
