@@ -267,11 +267,15 @@ response content
 The manuscript describes the proposed framework as a "methodological breakthrough," "new paradigm," and "methodological template" for future studies. These claims appear stronger than the evidence presented.
 
 **Response:**
-response content
+Thank you for this helpful comment. We have revised the Discussion and Conclusions to calibrate the description of the framework's methodological contribution. Specifically, we removed the unsupported labels "methodological breakthrough," "new paradigm," and "methodological template" and now describe the framework in terms of its specific analytical role and scope. The revised text reads as follows.
 
-"article content"
+"As a complement to traditional linear regression, this framework offers a flexible approach to multilevel analysis using machine learning."
 
-(Lines XX-XX; Pages XX)
+(Lines 508-509; Pages 29)
+
+"Methodologically, the study applies a multi-layered analytical framework that integrates interpretable machine learning with counterfactual effect estimation to examine education-related pathways in climate adaptation."
+
+(Lines 714-717; Pages 38)
 
 ## Comment 18
 
