@@ -40,9 +40,7 @@ response content
 The manuscript addresses a relevant and timely topic, and the analytical framework linking education, climate knowledge, awareness, and adaptive action is generally clear. However, the text would benefit from a careful language revision to correct several minor grammatical and typographical issues. For example, expressions such as "Using Nepal national survey" should be revised to "Using a national survey from Nepal"; "poor-educated groups" should be replaced with "groups with low educational attainment"; and minor errors such as "Nepal is is", "invididual-level", "impact estiamtion", "binary corss-entropy", "validataion", "Specificily", and "eduction" should be corrected throughout the manuscript. The authors should also ensure consistent terminology, particularly by using "adaptive actions" rather than "adaptative actions", and standardize figure captions, for example "Figure 1" instead of "Figure1".
 
 **Response:**
-response content
-
-"article content"
+Thank you for this careful and constructive comment. We have revised the manuscript to address the grammatical, typographical, and terminology issues highlighted by the reviewer. Specifically, we changed “Using Nepal national survey” to “Using a national survey from Nepal,” replaced “poor-educated groups” with “groups with low educational attainment,” corrected the spelling and grammatical errors identified in the comment, consistently used the term “adaptive actions,” and standardized the formatting of figure captions, including changing “Figure1” to “Figure 1.” We also revised related wording and sentence-level issues in the Abstract, Introduction, Methodology, Results, and Discussion to improve clarity and consistency.
 
 (Lines XX-XX; Pages XX)
 
@@ -85,9 +83,9 @@ Abstract -
 Briefly clarify the study design and whether causal claims are justified from the observational survey data. Also specify what is meant by the "multi-layered analytical framework". Additionally, consider reporting one or two key quantitative findings to better convey the significance of the results.
 
 **Response:**
-response content
+Thank you for this helpful comment. We have revised the Abstract to clarify the study design, define the multi-layered analytical framework, and report key quantitative findings. We have also moderated language that could imply overly strong causal conclusions. The revised abstract is shown as below.
 
-"article content"
+"Climate change increasingly threatens livelihoods in developing countries, where adaptive capacity depends heavily on individuals’ ability to understand climatic risks and respond accordingly. Using 11,568 observations pooled from the 2016 and 2022 waves of Nepal’s National Climate Change Impact Survey, this study examines associations between education and climate change knowledge, awareness, and adaptive actions. We construct a multi-layered framework in which XGBoost models are organized into three sequential analytical layers. These layers link education to climate knowledge, climate knowledge to awareness, and both knowledge and awareness to four adaptive actions. Comparisons between factual and counterfactual predictions distinguish model-estimated total effect from their direct and indirect components. Under the modelled education-improvement scenario, the predicted probability of climate knowledge rises from 46.35% to 51.07%, while the predicted probabilities of the four adaptive actions increase by 0.56–1.15 percentage points. Indirect effect operating through knowledge and awareness are generally larger than the corresponding direct effect. Importantly, the adaptive returns to education are uneven: groups with lower baseline educational attainment, including women, older adults, low-income households, rural residents, and populations in the western Mountain and Hill regions, exhibit larger marginal gains from additional education. Overall, the findings highlight that strengthening education systems, especially for groups with low educational attainment, is a effective and equity-enhancing strategy for building climate resilience in vulnerable contexts."
 
 (Lines XX-XX; Pages XX)
 
