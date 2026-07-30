@@ -107,9 +107,13 @@ response content
 Several gaps stated in the section 52-72 overlap, and the study's novelty would be clearer if they were prioritised and directly linked to the study objectives.
 
 **Response:**
-response content
+Thank you for this helpful comment. We have revised the Introduction to consolidate the overlapping gaps into three prioritised research gaps and align them directly with three study objectives. The revised structure distinguishes the sequential climate-response pathway, nonlinear model-based estimation, and contextual heterogeneity, thereby clarifying the study's contribution without relying on an absolute novelty claim.
 
-"article content"
+"Despite these insights, three related gaps remain. First, most studies examine climate knowledge, awareness, or adaptive actions separately, leaving the sequential pathway from knowledge through awareness to adaptive actions insufficiently tested with individual-level data that measure all three domains 15,16. Second, the predominance of linear statistical models and qualitative analyses limits the examination of nonlinear relationships and the distinction between education-related associations that operate directly and those that operate through knowledge and awareness 17,18. Third, limited attention has been paid to whether these relationships vary across demographic, socioeconomic, and geographic contexts, even though climate vulnerability is highly uneven within countries 8,19. These limitations leave the mechanisms, magnitude, and contextual heterogeneity of the relationship between education and climate resilience insufficiently understood."
+
+(Lines XX-XX; Pages XX)
+
+"Against this backdrop, this study has three objectives. First, using nationally representative individual-level data from Nepal, we examine the layered relationship linking education to climate knowledge, awareness of local climate change, and adaptive actions. Second, we apply a multi-layered XGBoost framework with factual-counterfactual prediction comparisons to distinguish model-estimated total effects from their direct and indirect components. Third, we assess how these estimated relationships vary across demographic, socioeconomic, and geographic groups. By integrating sequential climate-response pathways, nonlinear model-based estimation, and contextual heterogeneity within an analytical framework, the study responds directly to the research gaps and offers an integrated account of education’s role in climate responses."
 
 (Lines XX-XX; Pages XX)
 
