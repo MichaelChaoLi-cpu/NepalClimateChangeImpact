@@ -51,11 +51,19 @@ response content
 In addition, the literature review could be strengthened by citing and briefly discussing the following recent studies, which are relevant to climate adaptation, environmental awareness, and sustainability-related risk reduction: https://doi.org/10.1186/s12302-025-01254-y; https://doi.org/10.3390/environments12050148.
 
 **Response:**
-response content
+Thank you for this helpful suggestion. We have strengthened the literature discussion in the Introduction by citing and briefly discussing both recommended studies. The study by Lopes et al. (2025) is used to clarify that high climate-risk awareness does not necessarily translate into preparedness and that educational attainment and financial constraints influence adaptive engagement. The review by Ribeiro et al. (2025) situates the Nepal case within the broader geography of sustainability transitions by highlighting the concentration of previous research in the Global North and the value of context-specific evidence from the Global South. Both studies have also been added to the References.
 
-"article content"
+“Recent survey evidence from northern Portugal provides further insight into this relationship, showing that high awareness of climate risks did not necessarily translate into perceived preparedness. Higher educational attainment was associated with greater climate knowledge and stronger engagement in adaptation, whereas financial constraints continued to restrict the translation of awareness into action14.”
 
 (Lines XX-XX; Pages XX)
+
+“Moreover, empirical evidence from the Global South is particularly valuable because sustainability-transition research remains disproportionately concentrated in the Global North, even though transition pathways are strongly shaped by local and regional contexts27.”
+
+(Lines XX-XX; Pages XX)
+
+14	Lopes, H. S., Silva, P. F., Almeida, M., Ribeiro, I. & Remoaldo, P. Are residents prepared for the effects of climate change? A survey-based study in Tâmega e Sousa (Mainland Portugal). Environmental Sciences Europe 37, 221 (2025). https://doi.org:10.1186/s12302-025-01254-y
+
+27	Ribeiro, I. P., Lopes, H. S., Dinis, M. A. P. & Remoaldo, P. C. Geography of Sustainability Transitions: Mapping Spatial Dynamics and Research Trends Between 1995 and 2024. Environments 12, 148 (2025).
 
 ## Overall Comment
 
