@@ -184,9 +184,13 @@ Thank you for this important comment. We have revised the Basic Logic of Effect 
 Since the study emphasises "interpretable machine learning", specify which interpretation techniques (e.g., SHAP values, partial dependence plots, feature importance) were used and how they informed the analysis. Also, consider describing how uncertainty from earlier-stage predictions was incorporated into later-stage estimates.
 
 **Response:**
-response content
+Thank you for this helpful comment. We have clarified in the Methodology that model interpretation uses XGBoost's built-in gain-based feature importance, summarized across 100 fitted models, and explained how these importance values inform comparisons across the three analytical layers. We also clarify that earlier-stage predictions enter subsequent layers as averages of repeated out-of-fold probabilities and explicitly acknowledge that this procedure does not propagate the full distribution of upstream prediction uncertainty. The added methodological descriptions are as follows.
 
-"article content"
+"Model interpretation is based on XGBoost’s built-in gain-based feature importance. For each fitted model, this measure represents the average improvement in the objective function produced by splits involving a given predictor and is normalized across all predictors. We repeat stratified 10-fold cross-validation using 10 random seeds and summarize each predictor’s normalized gain importance by its mean and standard deviation across the resulting 100 fitted models. These importance values are used to compare the relative predictive contributions of education-related variables and the main climate-related variables across the three analytical layers."
+
+(Lines XX-XX; Pages XX)
+
+"For each observation, the repeated cross-validation procedure generates one out-of-fold predicted probability from each of the 10 random partitions. We average these 10 probabilities before entering predicted knowledge and awareness as predictors in the subsequent analytical layer. This averaging reduces dependence on any single sample partition, but it does not explicitly propagate the full distribution of uncertainty associated with the upstream predictions. Later-layer estimates are therefore interpreted subject to this limitation."
 
 (Lines XX-XX; Pages XX)
 
