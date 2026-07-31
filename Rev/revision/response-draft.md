@@ -150,9 +150,9 @@ Methodology -
 The survey data are appropriate for the research objectives, but the authors should provide stronger justification for pooling the 2016 and 2022 survey waves. Specifically, explain how differences in sampling frames (2011 vs. 2021 Census), survey implementation, and temporal changes were accounted for in the analysis.
 
 **Response:**
-response content
+Thank you for this important comment. We have expanded the Survey Information subsection to explain how the two census-specific sampling frames and temporal differences are addressed when pooling the 2016 and 2022 NCCIS waves. The added paragraph clarifies the common survey implementation and variable-harmonization procedure, the inclusion of survey year in all models, and the repeated cross-sectional interpretation of the pooled estimates.
 
-"article content"
+"Although the sampling frames are updated between survey waves to reflect the most recent population census, each survey is designed to be nationally representative under its corresponding census frame, and both are conducted by the CBS using comparable core survey modules. Because the objective of this study is to estimate average education-related patterns across two nationally representative repeated cross-sectional surveys rather than within-household changes, the two waves are pooled to increase statistical power and sample heterogeneity. To ensure comparability, variable definitions and coding are harmonized, and only measures available in both survey waves are retained. Survey year is included as an explanatory variable in all models to account for systematic differences between survey waves. Accordingly, the pooled estimates are interpreted as average cross-sectional relationships across the two survey periods rather than evidence of temporal change. After excluding observations with missing values, the final dataset for analysis comprises 11,568 observations."
 
 (Lines XX-XX; Pages XX)
 
