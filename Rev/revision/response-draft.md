@@ -234,9 +234,9 @@ response content
 The decomposition of total, direct, and indirect effects is interesting but requires a clearer explanation of how these effects were calculated and whether the decomposition is formally equivalent to mediation analysis.
 
 **Response:**
-response content
+Thank you for this important comment. We have revised the Multi-layered Analysis and Accumulated Effects subsection to define how the total, direct, and indirect effects are calculated from separate factual and counterfactual prediction scenarios. We also clarify that these contrasts are estimated independently under nonlinear XGBoost prediction functions, are not constrained to be additive, and represent a model-based pathway decomposition rather than a formal causal mediation analysis. The added paragraph reads as follows.
 
-"article content"
+"The total effect on climate change knowledge is calculated as the sample-mean change in predicted probability after the education-improvement adjustment, which increases Education Year by one and sets the Literate Education Dummy and Illiterate Dummy to zero. Because knowledge constitutes the first analytical layer, no preceding indirect pathway is involved. For awareness and adaptive actions, we calculate the total, direct, and indirect effects using separate prediction scenarios. The total-effect scenario applies the education adjustment and replaces the predicted probabilities from the preceding layers with their counterfactual values. The direct-effect scenario applies only the education adjustment while retaining the factual upstream probabilities, whereas the indirect-effect scenario retains the factual education variables and replaces only the upstream probabilities with their counterfactual values. Each effect is calculated as the sample mean of the difference between the corresponding counterfactual and factual predicted probabilities. Because these contrasts are estimated separately under nonlinear XGBoost prediction functions, the total effect is not constrained to equal the arithmetic sum of the direct and indirect effects. Therefore, this procedure is interpreted as a model-based pathway decomposition, rather than a formal causal mediation analysis."
 
 (Lines XX-XX; Pages XX)
 
