@@ -96,9 +96,13 @@ Introduction -
 The introduction provides a strong rationale for the study and clearly establishes the importance of education in climate adaptation. It is overly long and could be restructured by reducing background information and avoiding repetition.
 
 **Response:**
-response content
+Thank you for this helpful comment. We have streamlined the Introduction by consolidating repetitive background information and shortening the Nepal context while retaining the study rationale, key evidence, prioritised research gaps, and corresponding objectives. Examples of the condensed passages are provided below.
 
-"article content"
+"Climate change has emerged as one of the most pressing development challenges worldwide, disproportionately affecting low-income and climate-vulnerable populations 1-3. Rising temperatures, shifting precipitation patterns, and increased frequency of extreme events are already undermining livelihoods, damaging infrastructure, and intensifying risks for communities that lack sufficient adaptive capacity 3-5. In many developing countries, where agricultural dependence is high and social protection remains limited, households’ ability to understand climatic risks and respond effectively becomes a critical determinant of resilience 4,6. Climate adaptation is therefore both a cognitive and behavioral process 7, yet many vulnerable populations lack accurate information or face barriers that prevent awareness from translating into action 8,9."
+
+(Lines XX-XX; Pages XX)
+
+"Moreover, empirical evidence from the Global South is particularly valuable because sustainability-transition research remains disproportionately concentrated in the Global North, even though transition pathways are strongly shaped by local and regional contexts 27. Nepal is among the few countries to have implemented nationally representative climate change surveys covering education, climate knowledge, awareness, climate-related experiences, and adaptive behaviors. This unique dataset provides country-specific evidence while offering broader insights for other developing and climate-vulnerable regions."
 
 (Lines XX-XX; Pages XX)
 
