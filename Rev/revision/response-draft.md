@@ -253,9 +253,21 @@ Thank you for this important comment. We have revised the Multi-layered Analysis
 The policy implications drawn from subgroup analyses (e.g., prioritising women, older adults, or low-income groups) should be supported by statistical evidence demonstrating that the observed differences are significant.
 
 **Response:**
-response content
+Thank you for this important comment. We have added formal between-group tests for the subgroup total effects presented in Figures 4–7 and report the complete results in Supplementary Table S5. The comparisons use standard errors clustered at the survey-year–PSU level, with p-values adjusted across the subgroup comparisons using the Holm procedure. The revised Results specify which subgroup differences are statistically significant, thereby aligning the subgroup-based policy implications with the statistical evidence. The relevant additions read as follows.
 
-"article content"
+"The differences between women and men are statistically significant for climate knowledge, awareness, and all four adaptive actions. These comparisons use standard errors clustered at the survey-year–PSU level, with p-values adjusted across the subgroup comparisons using the Holm procedure, as reported in Supplementary Table S5."
+
+(Lines XX-XX; Pages XX)
+
+"The between-group differences are statistically significant only for climate knowledge, awareness, and soil and water conservation."
+
+(Lines XX-XX; Pages XX)
+
+"The between-group differences are statistically significant for all outcomes except risk reduction."
+
+(Lines XX-XX; Pages XX)
+
+"The differences between rural and urban residents are statistically significant for climate knowledge, awareness, and all four adaptive actions."
 
 (Lines XX-XX; Pages XX)
 
