@@ -1,0 +1,55 @@
+Table,Outcome,Group,Total,Direct,Indirect
+Overall sample,Climate knowledge,Overall,4.720115316,,
+Overall sample,Climate awareness,Overall,1.167906151,0.375851596,0.808328260
+Overall sample,Soil and water conservation,Overall,1.148910420,0.431733188,0.658282576
+Overall sample,Risk reduction,Overall,0.563882404,0.022733584,0.537008989
+Overall sample,Road improvement,Overall,0.747150916,-0.187590215,0.915003314
+Overall sample,Community participation,Overall,0.877487682,-0.058883166,0.958994290
+Gender,Climate knowledge,Female,6.808861753,,
+Gender,Climate knowledge,Male,3.886789099,,
+Gender,Climate awareness,Female,1.998627056,0.736259476,1.290378020
+Gender,Climate awareness,Male,0.836481763,0.232063279,0.616009702
+Gender,Soil and water conservation,Female,1.815123301,0.665729262,1.023111613
+Gender,Soil and water conservation,Male,0.883118149,0.338378121,0.512730394
+Gender,Risk reduction,Female,0.855908158,0.008627266,0.837808062
+Gender,Risk reduction,Male,0.447375817,0.028361440,0.417002199
+Gender,Road improvement,Female,1.174853877,-0.226543164,1.335297622
+Gender,Road improvement,Male,0.576514556,-0.172049547,0.747322709
+Gender,Community participation,Female,1.507676742,-0.009626655,1.536096992
+Gender,Community participation,Male,0.626067472,-0.078534542,0.728753413
+Age,Climate knowledge,Age >65,5.676315079,,
+Age,Climate knowledge,Age 45–65,4.399321445,,
+Age,Climate awareness,Age >65,1.640760277,0.730628647,0.935443550
+Age,Climate awareness,Age 45–65,1.009269106,0.256828032,0.765682562
+Age,Soil and water conservation,Age >65,1.342222773,0.540393368,0.719976343
+Age,Soil and water conservation,Age 45–65,1.084056380,0.395278965,0.637585037
+Age,Risk reduction,Age >65,0.593754768,0.007638299,0.587806950
+Age,Risk reduction,Age 45–65,0.553860574,0.027797876,0.519966865
+Age,Road improvement,Age >65,0.785640935,-0.228571970,0.972398610
+Age,Road improvement,Age 45–65,0.734237964,-0.173841314,0.895747862
+Age,Community participation,Age >65,0.838724018,-0.232802823,1.118610825
+Age,Community participation,Age 45–65,0.890492439,-0.000535149,0.905444804
+Income,Climate knowledge,Low income,4.963959534,,
+Income,Climate knowledge,High income,4.473983868,,
+Income,Climate awareness,Low income,1.520516671,0.512518384,1.024465419
+Income,Climate awareness,High income,0.811988185,0.237902889,0.590163759
+Income,Soil and water conservation,Low income,1.614657103,0.638710476,0.882473650
+Income,Soil and water conservation,High income,0.678795087,0.222814477,0.431988616
+Income,Risk reduction,Low income,0.620888308,-0.004898219,0.620716310
+Income,Risk reduction,High income,0.506341791,0.050624570,0.452516503
+Income,Road improvement,Low income,0.904752905,-0.240233960,1.116546551
+Income,Road improvement,High income,0.588070640,-0.134452677,0.711569625
+Income,Community participation,Low income,1.189966159,-0.117763559,1.336762126
+Income,Community participation,High income,0.562078192,0.000549519,0.577683035
+Location,Climate knowledge,Rural,5.351623029,,
+Location,Climate knowledge,Urban,4.115116390,,
+Location,Climate awareness,Rural,1.379316363,0.487967875,0.903078839
+Location,Climate awareness,Urban,0.965370302,0.268441620,0.717555024
+Location,Soil and water conservation,Rural,1.757282598,0.737185681,0.918526196
+Location,Soil and water conservation,Urban,0.566075869,0.139102669,0.408963198
+Location,Risk reduction,Rural,0.740069230,0.049566667,0.678488502
+Location,Risk reduction,Urban,0.395091368,-0.002973127,0.401468358
+Location,Road improvement,Rural,0.986590009,-0.236900873,1.176605668
+Location,Road improvement,Urban,0.517762754,-0.140349469,0.664382238
+Location,Community participation,Rural,1.094616788,-0.123770652,1.248023505
+Location,Community participation,Urban,0.669472999,0.003280540,0.682097649

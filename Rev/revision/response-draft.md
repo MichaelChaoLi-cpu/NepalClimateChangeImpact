@@ -216,9 +216,15 @@ Results -
 The results are comprehensive and well organised; however, the section is overly descriptive. Consider focusing on the key findings and moving detailed numerical comparisons to supplementary materials.
 
 **Response:**
-response content
+Thank you for this helpful comment. We have revised the Results section to focus on the main findings and moved the detailed factual–counterfactual numerical comparisons to a new Detailed Numerical Comparisons subsection in the Supplementary Materials. The main text now summarizes the overall pattern and directs readers to Supplementary Materials Table S2. The revised main-text sentence reads as follows.
 
-"article content"
+"Under the modelled education-improvement scenario, climate knowledge, awareness, and all four adaptive actions increase, with detailed numerical comparisons provided in Supplementary Materials Table S2."
+
+(Lines XX-XX; Pages XX)
+
+The corresponding Supplementary Materials text reads as follows.
+
+"Table S2 summarizes the model-estimated total, direct, and indirect effects, with the corresponding numerical comparisons presented below. When education levels are elevated, the mean predicted probability of climate change knowledge rises from 46.35% to 51.07%, an increase of 4.72 percentage points, equivalent to a 10.2% relative gain. Climate change awareness increases from 90.45% to 91.62%, a rise of 1.17 percentage points. For adaptive actions, the mean probabilities increase by 1.15, 0.56, 0.74 and 0.87 percentage points, corresponding to relative improvements of 4.94%, 2.34%, 2.37%, and 2.71%, respectively."
 
 (Lines XX-XX; Pages XX)
 
@@ -253,9 +259,15 @@ Thank you for this important comment. We have revised the Multi-layered Analysis
 The policy implications drawn from subgroup analyses (e.g., prioritising women, older adults, or low-income groups) should be supported by statistical evidence demonstrating that the observed differences are significant.
 
 **Response:**
-Thank you for this important comment. We have added formal between-group tests for the subgroup total effects presented in Figures 4–7 and report the complete results in Supplementary Table S5. The comparisons use standard errors clustered at the survey-year–PSU level, with p-values adjusted across the subgroup comparisons using the Holm procedure. The revised Results specify which subgroup differences are statistically significant, thereby aligning the subgroup-based policy implications with the statistical evidence. The relevant additions read as follows.
+Thank you for this important comment. We have added formal between-group tests for the subgroup total effects presented in Figures 4–7 and report the complete results in Supplementary Materials Table S7. The comparisons use standard errors clustered at the survey-year–PSU level, with p-values adjusted across the subgroup comparisons using the Holm procedure. The revised Results specify which subgroup differences are statistically significant, thereby aligning the subgroup-based policy implications with the statistical evidence. The table is provided below.
 
-"The differences between women and men are statistically significant for climate knowledge, awareness, and all four adaptive actions. These comparisons use standard errors clustered at the survey-year–PSU level, with p-values adjusted across the subgroup comparisons using the Holm procedure, as reported in Supplementary Table S5."
+**Table S7: Subgroup Difference Inference**
+
+[Paste Supplementary Materials Table S7 here]
+
+The relevant additions to the Results read as follows.
+
+"The differences between women and men are statistically significant for climate knowledge, awareness, and all four adaptive actions. These comparisons use standard errors clustered at the survey-year–PSU level, with p-values adjusted across the subgroup comparisons using the Holm procedure, as reported in Supplementary Materials Table S7."
 
 (Lines XX-XX; Pages XX)
 
@@ -276,11 +288,27 @@ Thank you for this important comment. We have added formal between-group tests f
 The manuscript would benefit from a concise summary table reporting the main estimated effects (total, direct, and indirect) across all outcomes and subgroup analyses to improve readability.
 
 **Response:**
-response content
+Thank you for this helpful comment. To present the results more clearly and in detail, we have added five effect summary tables to the Supplementary Materials. These tables report the model-estimated total, direct, and indirect effects for the overall sample and subgroups. Corresponding references have also been added to the Results section of the main manuscript. The five tables are provided below.
 
-"article content"
+**Table S2: Summary of Model-estimated Total, Direct, and Indirect Effects**
 
-(Lines XX-XX; Pages XX)
+[Paste Supplementary Materials Table S2 here]
+
+**Table S3: Summary of Model-estimated Total, Direct, and Indirect Effects by Gender**
+
+[Paste Supplementary Materials Table S3 here]
+
+**Table S4: Summary of Model-estimated Total, Direct, and Indirect Effects by Age**
+
+[Paste Supplementary Materials Table S4 here]
+
+**Table S5: Summary of Model-estimated Total, Direct, and Indirect Effects by Income**
+
+[Paste Supplementary Materials Table S5 here]
+
+**Table S6: Summary of Model-estimated Total, Direct, and Indirect Effects by Location**
+
+[Paste Supplementary Materials Table S6 here]
 
 ## Comment 15
 
