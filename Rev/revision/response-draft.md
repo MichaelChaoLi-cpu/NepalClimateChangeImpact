@@ -354,9 +354,25 @@ Thank you for this helpful comment. We have revised the Discussion and Conclusio
 The discussion repeatedly emphasises the sequential pathway from education, knowledge, awareness, and adaptive behaviour across multiple sections. Similarly, several key findings are restated in the Policy Implications and Conclusions. Consolidating these repeated arguments would improve readability and reduce redundancy. The authors should explicitly state the novel theoretical insight offered by the multilayered analytical framework and explain how it extends prior research on climate cognition and adaptive behaviour.
 
 **Response:**
-response content
+To improve the clarity and focus of the Discussion, we have removed the detailed restatement of the results from the opening paragraph and retained only a concise overview, with the interpretation of the findings developed in the corresponding subsections. We have also revised the Discussion to more explicitly articulate the study’s novel theoretical contribution. In addition, the Policy Implications and Conclusions have been revised to reduce repetition and avoid restating the main findings. The revised passages read as follows.
 
-"article content"
+"Based on a nationally representative dataset with 11,568 observations and interpretable machine learning techniques, this study explores the associations between education and climate change knowledge, awareness, and adaptive actions. The discussion considers the cognitive pathways underlying these associations, their social and geographic heterogeneity, and their implications for climate adaptation research and policy."
+
+(Lines XX-XX; Pages XX)
+
+"Theoretically, our findings extend the Knowledge-Awareness-Behavior/Practice paradigm, which posits that knowledge acquisition precedes attitudinal change and behavioral responses 40-43. Rather than treating education, climate perception, and action as separate bivariate relationships, the multi-layered framework positions education as an upstream enabling condition and links knowledge and awareness as empirically distinguishable cognitive stages through which education is associated with adaptive action 36,44-47.  Consequently, our theoretical contribution lies in conceptualizing education-related adaptation as a context-dependent cognitive pathway, rather than a uniform direct relationship, and in showing that the strength of its component links varies across social and geographic groups."
+
+(Lines XX-XX; Pages XX)
+
+**Implications for Climate Adaptation Policy**
+
+"The model-estimated pathways support combining long-term educational investment with climate-specific communication in adaptation planning, particularly in developing and climate-vulnerable contexts such as Nepal. First, investments in basic literacy and lower-secondary schooling can be complemented by environmental science content, climate-related modules in informal education programs, and experiential learning approaches 32. Second, community-based climate extension services, localized early-warning systems, and targeted campaigns can connect educational gains to accessible, context-specific climate information 25,26,37. Third, programs that expand educational opportunities for women, low-income households, and rural populations may be particularly relevant 25,26,51. Moreover, in the western Mountain and Hill regions, school facilities, adult education, and climate communication infrastructure could receive particular attention because these areas combine high climate risk with low literacy. Taken together, the policy measures should incorporate education and climate communication into national climate-resilience planning."
+
+(Lines XX-XX; Pages XX)
+
+**Conclusions**
+
+"This study develops and applies a multi-layered machine-learning framework to characterize the relationships among education, climate knowledge, awareness, and adaptive actions in Nepal. The results indicate that these associations operate mainly through interconnected cognitive stages and vary across demographic, socioeconomic, and geographic contexts. By examining these relationships as an interconnected pathway, the study extends climate cognition-behavior research beyond isolated bivariate associations and identifies education as an upstream component of context-dependent adaptive capacity. Overall, the findings suggest that education should be viewed as a core component of national climate-resilience strategies."
 
 (Lines XX-XX; Pages XX)
 
