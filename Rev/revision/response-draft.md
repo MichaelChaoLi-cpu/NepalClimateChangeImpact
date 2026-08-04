@@ -4,15 +4,15 @@ Note: All the line numbers and page numbers are in the version without markup.
 
 # Revision Summary
 
-Thanks for the editor and reviewers' careful review. We hereby resubmit a substantially revised version of our manuscript that considers all of the points raised by the editor and reviewers.
+We thank the editor and reviewers for their careful and constructive comments. We hereby resubmit a revised version of our manuscript that addresses all points raised.
 
-Here is a summary of the main changes we made to the paper. We have:
+The main revisions are summarized below:
 
-- [Revision summary item 1: describe the major manuscript-level change.]
-- [Revision summary item 2: describe the major theoretical or conceptual change.]
-- [Revision summary item 3: describe the major methodological or robustness-check change.]
-- [Revision summary item 4: describe the major results, discussion, table, or figure change.]
-- [Revision summary item 5: describe language polishing, consistency checks, or formatting changes.]
+- We clarify the study design and analytical framework in the Abstract and Introduction, report key quantitative findings, incorporate the suggested literature, and sharpen the research gaps and objectives.
+- We refine the study’s theoretical contribution by presenting education as an upstream component of climate-related cognitive and behavioral pathways while avoiding unsupported novelty and causal claims.
+- We expand the Methodology to explain survey-wave pooling, model inputs and validation, gain-based feature importance, cross-layer prediction, model-based effect estimation, and the associated assumptions and limitations.
+- We reorganize the Results and Discussion to emphasize the main findings, move selected detailed comparisons to the Supplementary Materials, add effect-summary and subgroup-inference tables, and provide more specific policy implications.
+- We conduct a careful language review and standardize grammar, terminology, and figure-caption formatting throughout the manuscript.
 
 We also made many revisions based on other comments by the editor and reviewers, and more detailed responses to each reviewer are enclosed.
 
@@ -27,11 +27,7 @@ When resubmitting your manuscript, please carefully consider all issues mentione
 I look forward to receiving your revised manuscript in due course.
 
 **Response:**
-response content
-
-"article content"
-
-(Lines XX-XX; Pages XX)
+Thank you for the opportunity to revise our manuscript. We have carefully considered all issues raised by the reviewers and revised the manuscript accordingly. Detailed point-by-point responses are provided below.
 
 # Reviewer 1
 
