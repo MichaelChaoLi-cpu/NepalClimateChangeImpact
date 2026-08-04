@@ -315,19 +315,7 @@ Thank you for this helpful comment. To present the results more clearly and in d
 There are numerous grammatical and typographical errors that should be corrected, including "adaptative" (adaptive), "Specificily" (Specifically), "eduction" (education), "clamte" (climate), "accross" (across), "The spatial map show" (shows), and the incomplete sentence 454 "where higher literacy and infrastructural access...".
 
 **Response:**
-Thank you for this careful comment. We have reviewed the manuscript and corrected the grammatical, typographical, and incomplete-sentence issues identified by the reviewer. We have also standardized the use of “adaptive actions” and the formatting of figure captions. Representative revised passages read as follows.
-
-"Given the imbalance between the 0 and 1 categories of the dependent variable, we apply stratified sampling to ensure that each fold preserves the original class distribution."
-
-(Lines XX-XX; Pages XX)
-
-"In this study, we fine-tune six XGBoost models comprising one model for climate knowledge, one for climate awareness, and four for adaptive actions."
-
-(Lines XX-XX; Pages XX)
-
-"The effects weaken in the southern lowlands, where literacy rates and access to infrastructure are higher."
-
-(Lines XX-XX; Pages XX)
+Thank you for this careful comment. We have corrected all errors identified by the reviewer and conducted a careful language review of the manuscript.
 
 ## Comment 16
 
