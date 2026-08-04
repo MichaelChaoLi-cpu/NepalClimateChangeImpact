@@ -40,9 +40,7 @@ response content
 The manuscript addresses a relevant and timely topic, and the analytical framework linking education, climate knowledge, awareness, and adaptive action is generally clear. However, the text would benefit from a careful language revision to correct several minor grammatical and typographical issues. For example, expressions such as "Using Nepal national survey" should be revised to "Using a national survey from Nepal"; "poor-educated groups" should be replaced with "groups with low educational attainment"; and minor errors such as "Nepal is is", "invididual-level", "impact estiamtion", "binary corss-entropy", "validataion", "Specificily", and "eduction" should be corrected throughout the manuscript. The authors should also ensure consistent terminology, particularly by using "adaptive actions" rather than "adaptative actions", and standardize figure captions, for example "Figure 1" instead of "Figure1".
 
 **Response:**
-Thank you for this careful and constructive comment. We have revised the manuscript to address the grammatical, typographical, and terminology issues highlighted by the reviewer. Specifically, we changed “Using Nepal national survey” to “Using a national survey from Nepal,” replaced “poor-educated groups” with “groups with low educational attainment,” corrected the spelling and grammatical errors identified in the comment, consistently used the term “adaptive actions,” and standardized the formatting of figure captions, including changing “Figure1” to “Figure 1.” We also revised related wording and sentence-level issues in the Abstract, Introduction, Methodology, Results, and Discussion to improve clarity and consistency.
-
-(Lines XX-XX; Pages XX)
+Thank you for this careful and constructive comment. We have corrected all language, terminology, and formatting issues identified by the reviewer and conducted a careful language review of the manuscript.
 
 ## Comment 2
 
