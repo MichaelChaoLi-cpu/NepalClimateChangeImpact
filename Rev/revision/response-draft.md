@@ -66,11 +66,7 @@ Thank you for this helpful suggestion. We have strengthened the literature discu
 Congratulations for your interesting work.
 
 **Response:**
-response content
-
-"article content"
-
-(Lines XX-XX; Pages XX)
+Thank you for your positive and encouraging comment. We sincerely appreciate the time and effort you have devoted to reviewing our manuscript.
 
 # Reviewer 2
 
