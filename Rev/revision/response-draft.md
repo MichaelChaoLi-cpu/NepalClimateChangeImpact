@@ -47,11 +47,11 @@ Thank you for this helpful suggestion. We have strengthened the literature discu
 
 “Recent survey evidence from northern Portugal provides further insight into this relationship, showing that high awareness of climate risks did not necessarily translate into perceived preparedness. Higher educational attainment was associated with greater climate knowledge and stronger engagement in adaptation, whereas financial constraints continued to restrict the translation of awareness into action14.”
 
-(Lines XX-XX; Pages XX)
+(Lines 48-53; Pages 3)
 
 “Moreover, empirical evidence from the Global South is particularly valuable because sustainability-transition research remains disproportionately concentrated in the Global North, even though transition pathways are strongly shaped by local and regional contexts27.”
 
-(Lines XX-XX; Pages XX)
+(Lines 81-84; Pages 5)
 
 14	Lopes, H. S., Silva, P. F., Almeida, M., Ribeiro, I. & Remoaldo, P. Are residents prepared for the effects of climate change? A survey-based study in Tâmega e Sousa (Mainland Portugal). Environmental Sciences Europe 37, 221 (2025). https://doi.org:10.1186/s12302-025-01254-y
 
@@ -77,7 +77,7 @@ Thank you for this helpful comment. We have revised the Abstract to clarify the 
 
 "Climate change increasingly threatens livelihoods in developing countries, where adaptive capacity depends heavily on individuals’ ability to understand climatic risks and respond accordingly. Using 11,568 observations from the 2016 and 2022 waves of Nepal’s National Climate Change Impact Survey, this study examines associations between education and climate change knowledge, awareness, and adaptive actions. We construct a multi-layered framework in which XGBoost models are organized into three sequential analytical layers. These layers link education to climate knowledge, climate knowledge to awareness, and both knowledge and awareness to four adaptive actions. Comparisons between factual and counterfactual predictions distinguish model-estimated total, direct and indirect effects. Under the modelled education-improvement scenario, the predicted probability of climate knowledge rises from 46.35% to 51.07%, while the predicted probabilities of the four adaptive actions increase by 0.56-1.15 percentage points. Indirect effects operating through knowledge and awareness are generally larger than the corresponding direct effects. Importantly, the adaptive returns to education are uneven: groups with lower baseline educational attainment, including women, older adults, low-income households, rural residents, and populations in the western Mountain and Hill regions, exhibit larger marginal gains from additional education. Overall, the findings highlight that strengthening education systems, especially for groups with low educational attainment, may offer an effective and equity-enhancing approach to building climate resilience in vulnerable contexts."
 
-(Lines XX-XX; Pages XX)
+(Lines 5-25; Pages 1-2)
 
 ## Comment 2
 
@@ -90,11 +90,11 @@ Thank you for this helpful comment. We have streamlined the Introduction by cons
 
 "Climate change has emerged as one of the most pressing development challenges worldwide, disproportionately affecting low-income and climate-vulnerable populations 1-3. Rising temperatures, shifting precipitation patterns, and increased frequency of extreme events are already undermining livelihoods, damaging infrastructure, and intensifying risks for communities that lack sufficient adaptive capacity 3-5. In many developing countries, where agricultural dependence is high and social protection remains limited, households’ ability to understand climatic risks and respond effectively becomes a critical determinant of resilience 4,6. Climate adaptation is therefore both a cognitive and behavioral process 7, yet many vulnerable populations lack accurate information or face barriers that prevent awareness from translating into action 8,9."
 
-(Lines XX-XX; Pages XX)
+(Lines 32-42; Pages 3)
 
 "Moreover, empirical evidence from the Global South is particularly valuable because sustainability-transition research remains disproportionately concentrated in the Global North, even though transition pathways are strongly shaped by local and regional contexts 27. Nepal is among the few countries to have implemented nationally representative climate change surveys covering education, climate knowledge, awareness, climate-related experiences, and adaptive behaviors. This unique dataset provides country-specific evidence while offering broader insights for other developing and climate-vulnerable regions."
 
-(Lines XX-XX; Pages XX)
+(Lines 81-89; Pages 5)
 
 ## Comment 3
 
@@ -103,13 +103,13 @@ Several gaps stated in the section 52-72 overlap, and the study's novelty would 
 **Response:**
 Thank you for this helpful comment. We have revised the Introduction to consolidate the overlapping gaps into three prioritised research gaps and align them directly with three study objectives. The revised structure distinguishes the sequential climate-response pathway, nonlinear model-based estimation, and contextual heterogeneity, thereby clarifying the study's contribution without relying on an absolute novelty claim.
 
-"Despite these insights, three related gaps remain. First, most studies examine climate knowledge, awareness, or adaptive actions separately, leaving the sequential pathway from knowledge through awareness to adaptive actions insufficiently tested with individual-level data that measure all three domains 15,16. Second, the predominance of linear statistical models and qualitative analyses limits the examination of nonlinear relationships and the distinction between education-related associations that operate directly and those that operate through knowledge and awareness 17,18. Third, limited attention has been paid to whether these relationships vary across demographic, socioeconomic, and geographic contexts, even though climate vulnerability is highly uneven within countries 8,19. These limitations leave the mechanisms, magnitude, and contextual heterogeneity of the relationship between education and climate resilience insufficiently understood."
+"Despite these insights, three related gaps remain. First, most studies examine climate knowledge, awareness, or adaptive actions separately, leaving the sequential pathway from knowledge through awareness to adaptive actions insufficiently tested with individual-level data that measure all three domains 15,16. Second, the predominance of linear statistical models and qualitative analyses limits the examination of nonlinear relationships and the distinction between education-related associations that operate directly and those that operate through knowledge and awareness 17,18. Third, limited attention has been paid to whether these relationships vary across demographic, socioeconomic, and geographic contexts, even though climate vulnerability is highly uneven within countries 9,19. These limitations leave the mechanisms, magnitude, and contextual heterogeneity of the relationship between education and climate resilience insufficiently understood."
 
-(Lines XX-XX; Pages XX)
+(Lines 53-64; Pages 3-4)
 
 "Against this backdrop, this study has three objectives. First, using nationally representative individual-level data from Nepal, we examine the layered relationship linking education to climate knowledge, awareness of local climate change, and adaptive actions. Second, we apply a multi-layered XGBoost framework with factual-counterfactual prediction comparisons to distinguish model-estimated total effects from their direct and indirect components. Third, we assess how these estimated relationships vary across demographic, socioeconomic, and geographic groups. By integrating sequential climate-response pathways, nonlinear model-based estimation, and contextual heterogeneity within an analytical framework, the study responds directly to the research gaps and offers an integrated account of education’s role in climate responses."
 
-(Lines XX-XX; Pages XX)
+(Lines 90-100; Pages 5)
 
 ## Comment 4
 
@@ -120,18 +120,18 @@ Thank you for this helpful comment. The revised Introduction now strengthens the
 
 "National survey evidence further illustrates the coexistence of high climate exposure and limited climate awareness in Nepal. Although 87.22% of households reported experiencing climate change over the previous 25 years, only 35.8% were aware of climate change, with awareness falling to 26.3% among rural households. This combination of widespread exposure and limited awareness makes Nepal an especially important setting for examining how education shapes the progression from climate knowledge to awareness and adaptive action."
 
-(Lines XX-XX; Pages XX)
+(Lines 71-77; Pages 4)
 
 ## Comment 5
 
 Some claims (e.g., "first systematic empirical assessment" and "first" contributions) should be supported by evidence or softened unless a comprehensive literature review confirms them.
 
 **Response:**
-Thank you for this helpful comment. We have revised the Introduction to avoid an unsupported absolute novelty claim. The manuscript now describes the study as providing a systematic empirical assessment of the layered pathway, without claiming that it is the first such assessment.
+Thank you for this helpful comment. We have revised the Introduction to avoid unsupported absolute novelty claims. The manuscript now describes the contribution as an integrated analytical account without claiming to be the first.
 
-"First, drawing on nationally representative individual-level data from Nepal, we provide a systematic empirical assessment of a layered pathway through which education shapes climate change responses."
+"By integrating sequential climate-response pathways, nonlinear model-based estimation, and contextual heterogeneity within an analytical framework, the study responds directly to the research gaps and offers an integrated account of education’s role in climate responses."
 
-(Lines XX-XX; Pages XX)
+(Lines 98-100; Pages 5)
 
 ## Comment 6
 
@@ -144,7 +144,7 @@ Thank you for this important comment. We have expanded the Survey Information su
 
 "Although the sampling frames are updated between survey waves to reflect the most recent population census, each survey is designed to be nationally representative under its corresponding census frame, and both are conducted by the CBS using comparable core survey modules. Because the objective of this study is to estimate average education-related patterns across two nationally representative repeated cross-sectional surveys rather than within-household changes, the two waves are pooled to increase statistical power and sample heterogeneity. To ensure comparability, variable definitions and coding are harmonized, and only measures available in both survey waves are retained. Survey year is included as an explanatory variable in all models to account for systematic differences between survey waves. Accordingly, the pooled estimates are interpreted as average cross-sectional relationships across the two survey periods rather than evidence of temporal change. After excluding observations with missing values, the final dataset for analysis comprises 11,568 observations."
 
-(Lines XX-XX; Pages XX)
+(Lines 119-131; Pages 6-7)
 
 ## Comment 7
 
@@ -155,19 +155,19 @@ Thank you for this important comment. We have revised the Basic Logic of Effect 
 
 "For binary variables, we generate two prediction sets by assigning the focal indicator values of one and zero while keeping all other observed variables unchanged. The first prediction assigns the indicator a value of one, as follows:"
 
-(Lines XX-XX; Pages XX)
+(Lines 188-190; Pages 10)
 
 "Similarly, this comparison remains model-dependent and follows the same predictive-performance requirements as the preceding estimation procedure."
 
-(Lines XX-XX; Pages XX)
+(Lines 196-197; Pages 10)
 
 "Counterfactual predictions are generated by systematically modifying one predictor while holding all other observed variables unchanged. The resulting differences are interpreted as model-estimated effects under the learned prediction function rather than experimentally identified causal effects. Their interpretation assumes that the observed covariates adequately capture the major factors associated with both education and climate-related outcomes and that the fitted machine learning model adequately approximates the underlying relationships. Because the NCCIS consists of repeated cross-sectional observational surveys, unobserved confounding cannot be completely ruled out. Accordingly, these estimates provide model-based evidence on the proposed education-related pathways rather than conclusive evidence of causality."
 
-(Lines XX-XX; Pages XX)
+(Lines 202-212; Pages 10-11)
 
 "Despite its contributions, this study has several limitations that offer directions for future research. First, although the nationwide survey provides rich cross-sectional information, the analysis remains observational. The assumptions required for causal identification, including conditional exchangeability, common support, consistency, no interference, and correct temporal ordering, cannot be fully verified with these data. Residual confounding, self-reported measurement error, and the absence of within-household longitudinal observations may therefore affect the model-estimated effects. We consequently interpret the findings as model-based evidence under the specified education-improvement scenarios rather than definitive causal estimates. Future work could employ longitudinal panel data, natural experiments, or randomized information interventions to identify the causal pathways linking education to climate-related cognition and behavior more rigorously."
 
-(Lines XX-XX; Pages XX)
+(Lines 636-647; Pages 35)
 
 ## Comment 8
 
@@ -178,11 +178,11 @@ Thank you for this helpful comment. We have clarified in the Methodology that mo
 
 "Model interpretation is based on XGBoost’s built-in gain-based feature importance. For each fitted model, this measure represents the average improvement in the objective function produced by splits involving a given predictor and is normalized across all predictors. We repeat stratified 10-fold cross-validation using 10 random seeds and summarize each predictor’s normalized gain importance by its mean and standard deviation across the resulting 100 fitted models. These importance values are used to compare the relative predictive contributions of education-related variables and the main climate-related variables across the three analytical layers."
 
-(Lines XX-XX; Pages XX)
+(Lines 244-251; Pages 12)
 
 "For each observation, the repeated cross-validation procedure generates one out-of-fold predicted probability from each of the 10 random partitions. We average these 10 probabilities before entering predicted knowledge and awareness as predictors in the subsequent analytical layer. This averaging reduces dependence on any single sample partition, but it does not explicitly propagate the full distribution of uncertainty associated with the upstream predictions. Later-layer estimates are therefore interpreted subject to this limitation."
 
-(Lines XX-XX; Pages XX)
+(Lines 260-266; Pages 13)
 
 ## Comment 9
 
@@ -193,11 +193,11 @@ Thank you for this important comment. We have clarified the assumptions underlyi
 
 "Counterfactual predictions are generated by systematically modifying one predictor while holding all other observed variables unchanged. The resulting differences are interpreted as model-estimated effects under the learned prediction function rather than experimentally identified causal effects. Their interpretation assumes that the observed covariates adequately capture the major factors associated with both education and climate-related outcomes and that the fitted machine learning model adequately approximates the underlying relationships. Because the NCCIS consists of repeated cross-sectional observational surveys, unobserved confounding cannot be completely ruled out. Accordingly, these estimates provide model-based evidence on the proposed education-related pathways rather than conclusive evidence of causality."
 
-(Lines XX-XX; Pages XX)
+(Lines 202-212; Pages 10-11)
 
 "Fourth, the model-estimated effects depend on probabilistic predictions generated by the fitted machine-learning models. Their interpretation therefore assumes adequate model fit and sufficient empirical support for the adjusted predictor values; estimates may be less reliable when these adjustments require extrapolation beyond well-represented covariate combinations. Because predictions from earlier layers enter subsequent models, prediction errors may also propagate across the analytical sequence. Cross-validated accuracy evaluates predictive performance but does not by itself validate the resulting effect estimates. Future research could address these limitations by combining probability calibration and overlap diagnostics with explicit propagation of prediction uncertainty across layers and comparison with causal machine-learning approaches."
 
-(Lines XX-XX; Pages XX)
+(Lines 658-668; Pages 36)
 
 ## Comment 10
 
@@ -210,13 +210,13 @@ Thank you for this helpful comment. We have revised the Results section to focus
 
 "Under the modelled education-improvement scenario, climate knowledge, awareness, and all four adaptive actions increase, with detailed numerical comparisons provided in Supplementary Materials Table S2."
 
-(Lines XX-XX; Pages XX)
+(Lines 350-353; Pages 17)
 
 The corresponding Supplementary Materials text reads as follows.
 
 "Table S2 summarizes the model-estimated total, direct, and indirect effects, with the corresponding numerical comparisons presented below. When education levels are elevated, the mean predicted probability of climate change knowledge rises from 46.35% to 51.07%, an increase of 4.72 percentage points, equivalent to a 10.2% relative gain. Climate change awareness increases from 90.45% to 91.62%, a rise of 1.17 percentage points. For adaptive actions, the mean probabilities increase by 1.15, 0.56, 0.74 and 0.87 percentage points, corresponding to relative improvements of 4.94%, 2.34%, 2.37%, and 2.71%, respectively."
 
-(Lines XX-XX; Pages XX)
+(Lines 112-119; Pages 6)
 
 ## Comment 11
 
@@ -227,11 +227,11 @@ Thank you for this important comment. We have revised the Results to limit the c
 
 "Similarly, the fine-tuned XGBoost models achieve average 10-fold cross-validation accuracies of 89.51% for Climate Change Awareness Dummy, and 86.41%, 84.83%, 83.51%, and 86.50% for the four action variables, respectively. These values are higher than the corresponding average validation accuracies of the logistic regression models, which are 42.38%, 56.15%, 63.27%, 66.03%, and 69.52%, respectively. The XGBoost models also show smaller standard deviations in validation accuracy."
 
-(Lines XX-XX; Pages XX)
+(Lines 311-317; Pages 15)
 
 "Fourth, the model-estimated effects depend on probabilistic predictions generated by the fitted machine-learning models. Their interpretation therefore assumes adequate model fit and sufficient empirical support for the adjusted predictor values; estimates may be less reliable when these adjustments require extrapolation beyond well-represented covariate combinations. Because predictions from earlier layers enter subsequent models, prediction errors may also propagate across the analytical sequence. Cross-validated accuracy evaluates predictive performance but does not by itself validate the resulting effect estimates. Future research could address these limitations by combining probability calibration and overlap diagnostics with explicit propagation of prediction uncertainty across layers and comparison with causal machine-learning approaches."
 
-(Lines XX-XX; Pages XX)
+(Lines 658-668; Pages 36)
 
 ## Comment 12
 
@@ -242,7 +242,7 @@ Thank you for this important comment. We have revised the Multi-layered Analysis
 
 "The total effect on climate change knowledge is calculated as the sample-mean change in predicted probability after the education-improvement adjustment, which increases Education Year by one and sets the Literate Education Dummy and Illiterate Dummy to zero. Because knowledge constitutes the first analytical layer, no preceding indirect pathway is involved. For awareness and adaptive actions, we calculate the total, direct, and indirect effects using separate prediction scenarios. The total-effect scenario applies the education adjustment and replaces the predicted probabilities from the preceding layers with their counterfactual values. The direct-effect scenario applies only the education adjustment while retaining the factual upstream probabilities, whereas the indirect-effect scenario retains the factual education variables and replaces only the upstream probabilities with their counterfactual values. Each effect is calculated as the sample mean of the difference between the corresponding counterfactual and factual predicted probabilities. Because these contrasts are estimated separately under nonlinear XGBoost prediction functions, the total effect is not constrained to equal the arithmetic sum of the direct and indirect effects. Therefore, this procedure is interpreted as a model-based pathway decomposition, rather than a formal causal mediation analysis."
 
-(Lines XX-XX; Pages XX)
+(Lines 267-283; Pages 13-14)
 
 ## Comment 13
 
@@ -259,19 +259,19 @@ The relevant additions to the Results read as follows.
 
 "The differences between women and men are statistically significant for climate knowledge, awareness, and all four adaptive actions. These comparisons use standard errors clustered at the survey-year–PSU level, with p-values adjusted across the subgroup comparisons using the Holm procedure, as reported in Supplementary Materials Table S7."
 
-(Lines XX-XX; Pages XX)
+(Lines 391-396; Pages 20)
 
 "The between-group differences are statistically significant only for climate knowledge, awareness, and soil and water conservation."
 
-(Lines XX-XX; Pages XX)
+(Lines 415-417; Pages 22)
 
 "The between-group differences are statistically significant for all outcomes except risk reduction."
 
-(Lines XX-XX; Pages XX)
+(Lines 433-434; Pages 24)
 
 "The differences between rural and urban residents are statistically significant for climate knowledge, awareness, and all four adaptive actions."
 
-(Lines XX-XX; Pages XX)
+(Lines 456-457; Pages 26)
 
 ## Comment 14
 
@@ -318,15 +318,15 @@ Thank you for this important comment. We have reviewed the manuscript and revise
 
 "Counterfactual predictions are generated by systematically modifying one predictor while holding all other observed variables unchanged. The resulting differences are interpreted as model-estimated effects under the learned prediction function rather than experimentally identified causal effects. Their interpretation assumes that the observed covariates adequately capture the major factors associated with both education and climate-related outcomes and that the fitted machine learning model adequately approximates the underlying relationships. Because the NCCIS consists of repeated cross-sectional observational surveys, unobserved confounding cannot be completely ruled out. Accordingly, these estimates provide model-based evidence on the proposed education-related pathways rather than conclusive evidence of causality."
 
-(Lines XX-XX; Pages XX)
+(Lines 202-212; Pages 10-11)
 
 "In this sense, knowledge represents an intermediate stage in the model-estimated pathway. Higher education is associated with greater knowledge, which in turn is associated with the recognition and interpretation of climatic change. This layered pattern is consistent with the indirect effect of education on awareness being larger than its direct effect."
 
-(Lines XX-XX; Pages XX)
+(Lines 518-522; Pages 30)
 
 "This study develops and applies a multi-layered machine-learning framework to characterize the relationships among education, climate knowledge, awareness, and adaptive actions in Nepal. The results indicate that these associations operate mainly through interconnected cognitive stages and vary across demographic, socioeconomic, and geographic contexts. By examining these relationships as an interconnected pathway, the study extends climate cognition-behavior research beyond isolated bivariate associations and identifies education as an upstream component of context-dependent adaptive capacity. Overall, the findings suggest that education should be viewed as a core component of national climate-resilience strategies."
 
-(Lines XX-XX; Pages XX)
+(Lines 676-684; Pages 36-37)
 
 ## Comment 17
 
@@ -335,13 +335,13 @@ The manuscript describes the proposed framework as a "methodological breakthroug
 **Response:**
 Thank you for this helpful comment. We have revised the Discussion and Conclusions to calibrate the description of the framework's methodological contribution. Specifically, we removed the unsupported labels "methodological breakthrough," "new paradigm," and "methodological template" and now describe the framework in terms of its specific analytical role and scope. The revised text reads as follows.
 
-"As a complement to traditional linear regression, this framework offers a flexible approach to multilevel analysis using machine learning."
+"The use of a factual-counterfactual design further enables the decomposition of total, direct, and indirect effects, allowing the identification of hierarchical mechanisms from knowledge to awareness to behavior 28."
 
-(Lines 508-509; Pages 29)
+(Lines 607-610; Pages 34)
 
-"Methodologically, the study applies a multi-layered analytical framework that integrates interpretable machine learning with counterfactual effect estimation to examine education-related pathways in climate adaptation."
+"This integrated framework provides a scalable and transparent tool for examining multilevel processes in climate adaptation research."
 
-(Lines 714-717; Pages 38)
+(Lines 612-614; Pages 34)
 
 ## Comment 18
 
@@ -352,23 +352,23 @@ To improve the clarity and focus of the Discussion, we have removed the detailed
 
 "Based on a nationally representative dataset with 11,568 observations and interpretable machine learning techniques, this study explores the associations between education and climate change knowledge, awareness, and adaptive actions. The discussion considers the cognitive pathways underlying these associations, their social and geographic heterogeneity, and their implications for climate adaptation research and policy."
 
-(Lines XX-XX; Pages XX)
+(Lines 480-485; Pages 29)
 
 "Theoretically, our findings extend the Knowledge-Awareness-Behavior/Practice paradigm, which posits that knowledge acquisition precedes attitudinal change and behavioral responses 40-43. Rather than treating education, climate perception, and action as separate bivariate relationships, the multi-layered framework positions education as an upstream enabling condition and links knowledge and awareness as empirically distinguishable cognitive stages through which education is associated with adaptive action 36,44-47.  Consequently, our theoretical contribution lies in conceptualizing education-related adaptation as a context-dependent cognitive pathway, rather than a uniform direct relationship, and in showing that the strength of its component links varies across social and geographic groups."
 
-(Lines XX-XX; Pages XX)
+(Lines 543-552; Pages 31)
 
 **Implications for Climate Adaptation Policy**
 
 "The model-estimated pathways support combining long-term educational investment with climate-specific communication in adaptation planning, particularly in developing and climate-vulnerable contexts such as Nepal. First, investments in basic literacy and lower-secondary schooling can be complemented by environmental science content, climate-related modules in informal education programs, and experiential learning approaches 32. Second, community-based climate extension services, localized early-warning systems, and targeted campaigns can connect educational gains to accessible, context-specific climate information 25,26,37. Third, programs that expand educational opportunities for women, low-income households, and rural populations may be particularly relevant 25,26,51. Moreover, in the western Mountain and Hill regions, school facilities, adult education, and climate communication infrastructure could receive particular attention because these areas combine high climate risk with low literacy. National education and environment agencies could coordinate implementation in partnership with provincial and local governments, schools, and community-based organizations. Taken together, the policy measures should incorporate education and climate communication into national climate-resilience planning."
 
-(Lines XX-XX; Pages XX)
+(Lines 617-633; Pages 34-35)
 
 **Conclusions**
 
 "This study develops and applies a multi-layered machine-learning framework to characterize the relationships among education, climate knowledge, awareness, and adaptive actions in Nepal. The results indicate that these associations operate mainly through interconnected cognitive stages and vary across demographic, socioeconomic, and geographic contexts. By examining these relationships as an interconnected pathway, the study extends climate cognition-behavior research beyond isolated bivariate associations and identifies education as an upstream component of context-dependent adaptive capacity. Overall, the findings suggest that education should be viewed as a core component of national climate-resilience strategies."
 
-(Lines XX-XX; Pages XX)
+(Lines 676-684; Pages 36-37)
 
 ## Comment 19
 
@@ -379,4 +379,4 @@ Thank you for this helpful suggestion. We have revised the Implications for Clim
 
 "The model-estimated pathways support combining long-term educational investment with climate-specific communication in adaptation planning, particularly in developing and climate-vulnerable contexts such as Nepal. First, investments in basic literacy and lower-secondary schooling can be complemented by environmental science content, climate-related modules in informal education programs, and experiential learning approaches 32. Second, community-based climate extension services, localized early-warning systems, and targeted campaigns can connect educational gains to accessible, context-specific climate information 25,26,37. Third, programs that expand educational opportunities for women, low-income households, and rural populations may be particularly relevant 25,26,51. Moreover, in the western Mountain and Hill regions, school facilities, adult education, and climate communication infrastructure could receive particular attention because these areas combine high climate risk with low literacy. National education and environment agencies could coordinate implementation in partnership with provincial and local governments, schools, and community-based organizations. Taken together, the policy measures should incorporate education and climate communication into national climate-resilience planning."
 
-(Lines XX-XX; Pages XX)
+(Lines 617-633; Pages 34-35)
